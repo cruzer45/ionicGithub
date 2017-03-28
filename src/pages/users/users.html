@@ -14,7 +14,7 @@
   <ion-searchbar (input)="search($event)"></ion-searchbar>
 
   <ion-list>
-    <button ion-item *ngFor="let user of users" (click)="goToDetails(user.login)">
+    <button ion-item *ngFor="let user of users" (click)="goToDetails(user)">
       <ion-avatar item-left>
         <img [src]="user.avatar_url">
       </ion-avatar>

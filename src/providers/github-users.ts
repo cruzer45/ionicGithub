@@ -34,4 +34,10 @@ export class GithubUsers {
       .map(res => <User[]>(res.json().items))
   }
 
+
+  createUser(){
+    this.http.post();
+  }
+
+
 }
