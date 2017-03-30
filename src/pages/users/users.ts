@@ -30,7 +30,7 @@ export class UsersPage {
     console.log('ionViewDidLoad UsersPage');
   }
 
-  goToDetails(login: string, ) {
+  goToDetails(login: string) {
     this.navCtrl.push(UserDetailsPage, {login})
   }
 
